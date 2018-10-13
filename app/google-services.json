@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1043339871132",
+    "firebase_url": "https://social-mwogo.firebaseio.com",
+    "project_id": "social-mwogo",
+    "storage_bucket": "social-mwogo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043339871132:android:537b9d508aa20bd2",
+        "android_client_info": {
+          "package_name": "com.example.chodry.socialmwogo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043339871132-0e2sa2sdbb5p1a7uri616534h61kqaqr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chodry.socialmwogo",
+            "certificate_hash": "c3713579110ce518ae85b6036365bf44b96b55ad"
+          }
+        },
+        {
+          "client_id": "1043339871132-68064eviiif3gqj3v3gtuqfchlldruiv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbqqEFQ51IJ046hDbQMXdttl8QZuKnWoY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043339871132-68064eviiif3gqj3v3gtuqfchlldruiv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
