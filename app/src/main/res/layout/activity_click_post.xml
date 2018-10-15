@@ -4,22 +4,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ClickPostActivity">
+    tools:context=".ClickPostActivity"
+    android:background="@drawable/chodry">
 
-    <ImageView
-        android:id="@+id/update_post_image"
-        android:layout_width="wrap_content"
-        android:layout_height="250dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_margin="10dp"
-        app:srcCompat="@drawable/select_image" />
-
-    <TextView
-        android:id="@+id/textView"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Title"
-        android:layout_below="@+id/update_post_btn"/>
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/update_post_image"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="10dp"
+
+                app:srcCompat="@drawable/select_image" />
+
+            <TextView
+                android:id="@+id/title_post"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/update_post_btn"
+                android:layout_centerInParent="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/inputs"
+                android:padding="10dp"
+                android:text="Title"
+                android:textColor="@android:color/background_light"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/description_post"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title_post"
+                android:layout_centerInParent="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/inputs"
+                android:padding="10dp"
+                android:text="Description"
+                android:textColor="@android:color/background_light"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/description_post"
+                android:layout_marginStart="95dp"
+                android:background="@drawable/button"
+                android:padding="10dp"
+                android:text="Delete Post"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+   
+
+
 </RelativeLayout>
